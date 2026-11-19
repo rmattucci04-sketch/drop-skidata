@@ -1,212 +1,534 @@
 {
-  "schema": 1,
-  "updated": "2026-11-14",
-  "note": "Famous ski circuits. Text written for drop; figures are approximate and taken from the official pages listed under sources. Piste lines come from OpenStreetMap (ODbL).",
-  "circuits": [
+ "schema": 1,
+ "updated": "2026-11-14",
+ "note": "Famous ski circuits. Text written for drop; figures are approximate and taken from the official pages listed under sources. Piste lines come from OpenStreetMap (ODbL).",
+ "circuits": [
+  {
+   "key": "sellaronda-orange-alt",
+   "match": [
+    "sellaronda arancione alternativa",
+    "sellaronda orange alternative"
+   ],
+   "title": "Sellaronda · orange variant",
+   "color": "#F28C28",
+   "summary": "A signposted alternative for one stretch of the clockwise Sellaronda in Val Gardena. Same orange signs, different pistes: handy when the main line is crowded.",
+   "direction": "clockwise",
+   "difficulty": "medium",
+   "tips": [
+    "Follow the orange Sellaronda signs; the variant rejoins the main loop."
+   ],
+   "sources": [
     {
-      "key": "sellaronda-orange-alt",
-      "match": ["sellaronda arancione alternativa", "sellaronda orange alternative"],
-      "title": "Sellaronda · orange variant",
-      "color": "#F28C28",
-      "summary": "A signposted alternative for one stretch of the clockwise Sellaronda in Val Gardena. Same orange signs, different pistes: handy when the main line is crowded.",
-      "direction": "clockwise",
-      "difficulty": "medium",
-      "tips": ["Follow the orange Sellaronda signs; the variant rejoins the main loop."],
-      "sources": [
-        { "name": "Val Gardena", "url": "https://www.val-gardena.com/en/winter/sella-ronda/orange-clockwise/" }
-      ]
-    },
-    {
-      "key": "sellaronda-orange",
-      "match": ["sellaronda arancione", "sellaronda orange", "sella ronda orange"],
-      "title": "Sellaronda · clockwise (orange)",
-      "color": "#F28C28",
-      "summary": "The classic day in the Dolomites: a full loop around the Sella massif through Val Gardena, Alta Badia, Arabba and Val di Fassa, over four passes. Clockwise you follow the orange signs. The pistes are mostly reds and blues, so a confident intermediate can do it; what makes it hard is the length and the lift queues.",
-      "direction": "clockwise",
-      "lengthKm": 44,
-      "pisteKm": 23,
-      "liftKm": 21,
-      "hours": 6,
-      "difficulty": "medium",
-      "tips": [
-        "Start by 10:00 at the latest.",
-        "Plan to be past the last pass by about 15:30: lifts close and a taxi back over the pass is long and expensive.",
-        "You need the Dolomiti Superski pass, not a local one."
-      ],
-      "sources": [
-        { "name": "Dolomiti Superski", "url": "https://www.dolomitisuperski.com/en/experiences/winteractivities/ski-circuits/sellaronda" },
-        { "name": "Val Gardena", "url": "https://www.val-gardena.com/en/winter/sella-ronda/" }
-      ]
-    },
-    {
-      "key": "sellaronda-green",
-      "match": ["sellaronda verde", "sellaronda grun", "sellaronda green", "sella ronda green"],
-      "title": "Sellaronda · anticlockwise (green)",
-      "color": "#2E9E5B",
-      "summary": "The same loop around the Sella massif in the other direction, following the green signs. Different pistes and lifts from the orange way, so many people ski both on different days.",
-      "direction": "anticlockwise",
-      "lengthKm": 44,
-      "pisteKm": 23,
-      "liftKm": 21,
-      "hours": 6,
-      "difficulty": "medium",
-      "tips": [
-        "Start by 10:00 at the latest.",
-        "Plan to be past the last pass by about 15:30.",
-        "You need the Dolomiti Superski pass."
-      ],
-      "sources": [
-        { "name": "Dolomiti Superski", "url": "https://www.dolomitisuperski.com/en/experiences/winteractivities/ski-circuits/sellaronda" },
-        { "name": "Alta Badia", "url": "https://www.altabadia.org/en/info/sellaronda-ski-tour.html" }
-      ]
-    },
-    {
-      "key": "grande-guerra-cw",
-      "match": ["first world war ski tour clockwise", "grande guerra cw", "grande guerra in senso orario"],
-      "title": "First World War Ski Tour · clockwise",
-      "color": "#8A6D3B",
-      "summary": "A long loop around the Col di Lana along the old 1915–17 front line, linking Alta Badia, Arabba, Marmolada, Civetta, Cortina and the Lagazuoi. Wartime tunnels and trenches along the way, and a couple of stretches by bus or ski taxi that are part of the route.",
-      "direction": "clockwise",
-      "lengthKm": 80,
-      "pisteKm": 31,
-      "liftKm": 18,
-      "hours": 7,
-      "difficulty": "medium",
-      "tips": [
-        "A full day: be on the first lift.",
-        "Check that the Marmolada and Lagazuoi lifts are running before you set off.",
-        "Bring cash or a card for the ski taxi section."
-      ],
-      "sources": [
-        { "name": "Alta Badia", "url": "https://www.alta-badia.org/en/leisure-activities/winter-sports/first-world-war-ski-tour" },
-        { "name": "Val Gardena", "url": "https://www.val-gardena.com/en/tours/detail/ski-circuit-grande-guerra-dolomites/" }
-      ]
-    },
-    {
-      "key": "grande-guerra-ccw",
-      "match": ["first world war ski tour counterclockwise", "grande guerra ccw", "grande guerra in senso antiorario"],
-      "title": "First World War Ski Tour · anticlockwise",
-      "color": "#8A6D3B",
-      "summary": "The Great War loop in the other direction: the same valleys and historic sites around the Col di Lana, with a different order of pistes and lifts.",
-      "direction": "anticlockwise",
-      "lengthKm": 80,
-      "hours": 7,
-      "difficulty": "medium",
-      "tips": ["A full day: be on the first lift.", "Check that the Marmolada and Lagazuoi lifts are running."],
-      "sources": [
-        { "name": "Alta Badia", "url": "https://www.alta-badia.org/en/leisure-activities/winter-sports/first-world-war-ski-tour" },
-        { "name": "Val di Fassa", "url": "https://www.fassa.com/it/piste-e-impianti/skitour/grande-guerra" }
-      ]
-    },
-    {
-      "key": "super8",
-      "match": ["super8", "super 8"],
-      "title": "Super 8",
-      "color": "#7B3FE4",
-      "summary": "A figure-of-eight above Passo Falzarego near Cortina, linking the Cinque Torri, Averau, Croda Negra and Lagazuoi. Short, very scenic and not difficult, with a bus or taxi hop in the middle.",
-      "lengthKm": 24,
-      "pisteKm": 16,
-      "hours": 3,
-      "difficulty": "medium",
-      "tips": ["About 8 km of the loop is by bus or taxi.", "Good half-day if you are staying in Cortina."],
-      "sources": [
-        { "name": "Cortina d'Ampezzo", "url": "https://grandeguerra.dolomiti.org/en/cortina/experiences/ski-snowboard/super-8" }
-      ]
-    },
-    {
-      "key": "giro-delle-cime",
-      "match": ["giro delle cime"],
-      "title": "Giro delle Cime",
-      "color": "#0E7C86",
-      "summary": "The big loop of the 3 Zinnen Dolomites area: Monte Elmo, Croda Rossa and the pistes towards Comelico, starting from Versciaco or Sesto. A long, varied day with lots of vertical.",
-      "lengthKm": 35,
-      "verticalM": 5600,
-      "difficulty": "medium",
-      "tips": ["One section uses the shuttle bus: check its timetable.", "Start from Versciaco or Sesto."],
-      "sources": [
-        { "name": "Dolomiti Superski", "url": "https://dolomitisuperski.com/en/Dolomiti-Super-Stories/3-cime/Giro-delle-Cime" }
-      ]
-    },
-    {
-      "key": "tauernrunde-rot",
-      "match": ["tauernrunde rot"],
-      "title": "Tauernrunde · red (clockwise)",
-      "color": "#E1262D",
-      "summary": "Obertauern sits in a bowl on the pass, so its lifts and pistes form a ring around the village. The red round goes clockwise and is the more demanding of the two.",
-      "direction": "clockwise",
-      "lengthKm": 12,
-      "difficulty": "hard",
-      "tips": ["Start and finish in Obertauern village."],
-      "sources": [
-        { "name": "schneehoehen.de", "url": "https://www.schneehoehen.de/artikel/tauernrunde-3970" },
-        { "name": "Snowplaza", "url": "https://www.snowplaza.nl/weblog/7915-tauernrunde/" }
-      ]
-    },
-    {
-      "key": "tauernrunde-gruen",
-      "match": ["tauernrunde grun", "tauernrunde gruen"],
-      "title": "Tauernrunde · green (anticlockwise)",
-      "color": "#2E9E5B",
-      "summary": "The ring around Obertauern the other way round. The green round is the easier one, a good first lap of the resort.",
-      "direction": "anticlockwise",
-      "lengthKm": 12,
-      "difficulty": "medium",
-      "tips": ["Start and finish in Obertauern village."],
-      "sources": [
-        { "name": "schneehoehen.de", "url": "https://www.schneehoehen.de/artikel/tauernrunde-3970" }
-      ]
-    },
-    {
-      "key": "the-challenge",
-      "match": ["the challenge"],
-      "title": "The Challenge",
-      "color": "#121417",
-      "summary": "The biggest circuit of the Skicircus: a loop through Saalbach, Hinterglemm, Leogang and Fieberbrunn. For strong skiers with a full day and good legs.",
-      "difficulty": "hard",
-      "tips": ["Start early and keep an eye on the clock: the way back is long."],
-      "sources": [
-        { "name": "Saalbach", "url": "https://www.saalbach.com/en/service/infrastructure/the-challenge-ski-your-limit_a_1721" }
-      ]
-    },
-    {
-      "key": "saalbach-runde",
-      "match": ["saalbach-runde", "saalbach runde"],
-      "title": "Saalbach round",
-      "color": "#2457FF",
-      "summary": "One of the signposted circuits of the Skicircus, centred on Saalbach.",
-      "difficulty": "medium",
-      "tips": [],
-      "sources": [{ "name": "Saalbach", "url": "https://www.saalbach.com/en/winter/ski-resort/ski-circuits" }]
-    },
-    {
-      "key": "hinterglemm-runde",
-      "match": ["hinterglemm-runde", "hinterglemm runde"],
-      "title": "Hinterglemm round",
-      "color": "#2457FF",
-      "summary": "One of the signposted circuits of the Skicircus, around the Hinterglemm side of the valley.",
-      "difficulty": "medium",
-      "tips": [],
-      "sources": [{ "name": "Saalbach", "url": "https://www.saalbach.com/en/winter/ski-resort/ski-circuits" }]
-    },
-    {
-      "key": "leogang-runde",
-      "match": ["leogang-runde", "leogang runde"],
-      "title": "Leogang round",
-      "color": "#2457FF",
-      "summary": "One of the signposted circuits of the Skicircus, linking Leogang with the Saalbach side.",
-      "difficulty": "medium",
-      "tips": [],
-      "sources": [{ "name": "Saalbach", "url": "https://www.saalbach.com/en/winter/ski-resort/ski-circuits" }]
-    },
-    {
-      "key": "tirol-runde",
-      "match": ["tirol-runde", "tirol runde"],
-      "title": "Tirol round",
-      "color": "#2457FF",
-      "summary": "One of the signposted circuits of the Skicircus, taking in the Tyrolean side towards Fieberbrunn.",
-      "difficulty": "medium",
-      "tips": [],
-      "sources": [{ "name": "Saalbach", "url": "https://www.saalbach.com/en/winter/ski-resort/ski-circuits" }]
+     "name": "Val Gardena",
+     "url": "https://www.val-gardena.com/en/winter/sella-ronda/orange-clockwise/"
     }
-  ]
+   ],
+   "areas": [
+    {
+     "id": "fca6e2a27977f0cdca3016e8e9c4a9a643d53f2b",
+     "name": "Val Gardena, Gröden, Gherdëina"
+    },
+    {
+     "id": "b4c1b4b82934f2da39f43426a3f7518605fafafa",
+     "name": "Dolomiti Superski"
+    }
+   ]
+  },
+  {
+   "key": "sellaronda-orange",
+   "match": [
+    "sellaronda arancione",
+    "sellaronda orange",
+    "sella ronda orange"
+   ],
+   "title": "Sellaronda · clockwise (orange)",
+   "color": "#F28C28",
+   "summary": "The classic day in the Dolomites: a full loop around the Sella massif through Val Gardena, Alta Badia, Arabba and Val di Fassa, over four passes. Clockwise you follow the orange signs. The pistes are mostly reds and blues, so a confident intermediate can do it; what makes it hard is the length and the lift queues.",
+   "direction": "clockwise",
+   "lengthKm": 44,
+   "pisteKm": 23,
+   "liftKm": 21,
+   "hours": 6,
+   "difficulty": "medium",
+   "tips": [
+    "Start by 10:00 at the latest.",
+    "Plan to be past the last pass by about 15:30: lifts close and a taxi back over the pass is long and expensive.",
+    "You need the Dolomiti Superski pass, not a local one."
+   ],
+   "sources": [
+    {
+     "name": "Dolomiti Superski",
+     "url": "https://www.dolomitisuperski.com/en/experiences/winteractivities/ski-circuits/sellaronda"
+    },
+    {
+     "name": "Val Gardena",
+     "url": "https://www.val-gardena.com/en/winter/sella-ronda/"
+    }
+   ],
+   "areas": [
+    {
+     "id": "b4c1b4b82934f2da39f43426a3f7518605fafafa",
+     "name": "Dolomiti Superski"
+    },
+    {
+     "id": "ab7961704073ef3c88692eee6638c6622112defc",
+     "name": "Arabba"
+    },
+    {
+     "id": "fca6e2a27977f0cdca3016e8e9c4a9a643d53f2b",
+     "name": "Val Gardena, Gröden, Gherdëina"
+    },
+    {
+     "id": "04d84a3789b94eba19ce3c951fece8117d931c03",
+     "name": "Alta Badia"
+    },
+    {
+     "id": "c75c6ca036981ab96a6547398e30e705a9e30809",
+     "name": "Belvedere - Col Rodella - Passo Pordoi"
+    },
+    {
+     "id": "e615b3d384f0063fb20af785b477a97fdce907bc",
+     "name": "Val di Fassa"
+    }
+   ]
+  },
+  {
+   "key": "sellaronda-green",
+   "match": [
+    "sellaronda verde",
+    "sellaronda grun",
+    "sellaronda green",
+    "sella ronda green"
+   ],
+   "title": "Sellaronda · anticlockwise (green)",
+   "color": "#2E9E5B",
+   "summary": "The same loop around the Sella massif in the other direction, following the green signs. Different pistes and lifts from the orange way, so many people ski both on different days.",
+   "direction": "anticlockwise",
+   "lengthKm": 44,
+   "pisteKm": 23,
+   "liftKm": 21,
+   "hours": 6,
+   "difficulty": "medium",
+   "tips": [
+    "Start by 10:00 at the latest.",
+    "Plan to be past the last pass by about 15:30.",
+    "You need the Dolomiti Superski pass."
+   ],
+   "sources": [
+    {
+     "name": "Dolomiti Superski",
+     "url": "https://www.dolomitisuperski.com/en/experiences/winteractivities/ski-circuits/sellaronda"
+    },
+    {
+     "name": "Alta Badia",
+     "url": "https://www.altabadia.org/en/info/sellaronda-ski-tour.html"
+    }
+   ],
+   "areas": [
+    {
+     "id": "b4c1b4b82934f2da39f43426a3f7518605fafafa",
+     "name": "Dolomiti Superski"
+    },
+    {
+     "id": "fca6e2a27977f0cdca3016e8e9c4a9a643d53f2b",
+     "name": "Val Gardena, Gröden, Gherdëina"
+    },
+    {
+     "id": "04d84a3789b94eba19ce3c951fece8117d931c03",
+     "name": "Alta Badia"
+    },
+    {
+     "id": "c75c6ca036981ab96a6547398e30e705a9e30809",
+     "name": "Belvedere - Col Rodella - Passo Pordoi"
+    },
+    {
+     "id": "e615b3d384f0063fb20af785b477a97fdce907bc",
+     "name": "Val di Fassa"
+    },
+    {
+     "id": "ab7961704073ef3c88692eee6638c6622112defc",
+     "name": "Arabba"
+    }
+   ]
+  },
+  {
+   "key": "grande-guerra-cw",
+   "match": [
+    "first world war ski tour clockwise",
+    "grande guerra cw",
+    "grande guerra in senso orario"
+   ],
+   "title": "First World War Ski Tour · clockwise",
+   "color": "#8A6D3B",
+   "summary": "A long loop around the Col di Lana along the old 1915–17 front line, linking Alta Badia, Arabba, Marmolada, Civetta, Cortina and the Lagazuoi. Wartime tunnels and trenches along the way, and a couple of stretches by bus or ski taxi that are part of the route.",
+   "direction": "clockwise",
+   "lengthKm": 80,
+   "pisteKm": 31,
+   "liftKm": 18,
+   "hours": 7,
+   "difficulty": "medium",
+   "tips": [
+    "A full day: be on the first lift.",
+    "Check that the Marmolada and Lagazuoi lifts are running before you set off.",
+    "Bring cash or a card for the ski taxi section."
+   ],
+   "sources": [
+    {
+     "name": "Alta Badia",
+     "url": "https://www.alta-badia.org/en/leisure-activities/winter-sports/first-world-war-ski-tour"
+    },
+    {
+     "name": "Val Gardena",
+     "url": "https://www.val-gardena.com/en/tours/detail/ski-circuit-grande-guerra-dolomites/"
+    }
+   ],
+   "areas": [
+    {
+     "id": "b4c1b4b82934f2da39f43426a3f7518605fafafa",
+     "name": "Dolomiti Superski"
+    },
+    {
+     "id": "04d84a3789b94eba19ce3c951fece8117d931c03",
+     "name": "Alta Badia"
+    },
+    {
+     "id": "7382bc3c80658564db8fc3dc0e2f8d8f7c709fe0",
+     "name": "Lagazuoi - 5 Torri"
+    },
+    {
+     "id": "02196b1e0dd473176e265318bc9c06e22df53ace",
+     "name": "Cortina d'Ampezzo"
+    },
+    {
+     "id": "ab7961704073ef3c88692eee6638c6622112defc",
+     "name": "Arabba"
+    },
+    {
+     "id": "00e3880c19b3ca1bb412d2274d3c15bf4a2598f9",
+     "name": "Ski Civetta"
+    },
+    {
+     "id": "a848fe66f4aa22f54b96871f9b731c037c04a43f",
+     "name": "Marmolada"
+    }
+   ]
+  },
+  {
+   "key": "grande-guerra-ccw",
+   "match": [
+    "first world war ski tour counterclockwise",
+    "grande guerra ccw",
+    "grande guerra in senso antiorario"
+   ],
+   "title": "First World War Ski Tour · anticlockwise",
+   "color": "#8A6D3B",
+   "summary": "The Great War loop in the other direction: the same valleys and historic sites around the Col di Lana, with a different order of pistes and lifts.",
+   "direction": "anticlockwise",
+   "lengthKm": 80,
+   "hours": 7,
+   "difficulty": "medium",
+   "tips": [
+    "A full day: be on the first lift.",
+    "Check that the Marmolada and Lagazuoi lifts are running."
+   ],
+   "sources": [
+    {
+     "name": "Alta Badia",
+     "url": "https://www.alta-badia.org/en/leisure-activities/winter-sports/first-world-war-ski-tour"
+    },
+    {
+     "name": "Val di Fassa",
+     "url": "https://www.fassa.com/it/piste-e-impianti/skitour/grande-guerra"
+    }
+   ],
+   "areas": [
+    {
+     "id": "b4c1b4b82934f2da39f43426a3f7518605fafafa",
+     "name": "Dolomiti Superski"
+    },
+    {
+     "id": "04d84a3789b94eba19ce3c951fece8117d931c03",
+     "name": "Alta Badia"
+    },
+    {
+     "id": "7382bc3c80658564db8fc3dc0e2f8d8f7c709fe0",
+     "name": "Lagazuoi - 5 Torri"
+    },
+    {
+     "id": "02196b1e0dd473176e265318bc9c06e22df53ace",
+     "name": "Cortina d'Ampezzo"
+    },
+    {
+     "id": "ab7961704073ef3c88692eee6638c6622112defc",
+     "name": "Arabba"
+    },
+    {
+     "id": "00e3880c19b3ca1bb412d2274d3c15bf4a2598f9",
+     "name": "Ski Civetta"
+    },
+    {
+     "id": "a848fe66f4aa22f54b96871f9b731c037c04a43f",
+     "name": "Marmolada"
+    }
+   ]
+  },
+  {
+   "key": "super8",
+   "match": [
+    "super8",
+    "super 8"
+   ],
+   "title": "Super 8",
+   "color": "#7B3FE4",
+   "summary": "A figure-of-eight above Passo Falzarego near Cortina, linking the Cinque Torri, Averau, Croda Negra and Lagazuoi. Short, very scenic and not difficult, with a bus or taxi hop in the middle.",
+   "lengthKm": 24,
+   "pisteKm": 16,
+   "hours": 3,
+   "difficulty": "medium",
+   "tips": [
+    "About 8 km of the loop is by bus or taxi.",
+    "Good half-day if you are staying in Cortina."
+   ],
+   "sources": [
+    {
+     "name": "Cortina d'Ampezzo",
+     "url": "https://grandeguerra.dolomiti.org/en/cortina/experiences/ski-snowboard/super-8"
+    }
+   ],
+   "areas": [
+    {
+     "id": "7382bc3c80658564db8fc3dc0e2f8d8f7c709fe0",
+     "name": "Lagazuoi - 5 Torri"
+    },
+    {
+     "id": "b4c1b4b82934f2da39f43426a3f7518605fafafa",
+     "name": "Dolomiti Superski"
+    },
+    {
+     "id": "02196b1e0dd473176e265318bc9c06e22df53ace",
+     "name": "Cortina d'Ampezzo"
+    }
+   ]
+  },
+  {
+   "key": "giro-delle-cime",
+   "match": [
+    "giro delle cime"
+   ],
+   "title": "Giro delle Cime",
+   "color": "#0E7C86",
+   "summary": "The big loop of the 3 Zinnen Dolomites area: Monte Elmo, Croda Rossa and the pistes towards Comelico, starting from Versciaco or Sesto. A long, varied day with lots of vertical.",
+   "lengthKm": 35,
+   "verticalM": 5600,
+   "difficulty": "medium",
+   "tips": [
+    "One section uses the shuttle bus: check its timetable.",
+    "Start from Versciaco or Sesto."
+   ],
+   "sources": [
+    {
+     "name": "Dolomiti Superski",
+     "url": "https://dolomitisuperski.com/en/Dolomiti-Super-Stories/3-cime/Giro-delle-Cime"
+    }
+   ],
+   "areas": [
+    {
+     "id": "3768b8c925737d2bdad4ea978f036485c508a6b3",
+     "name": "Drei Zinnen - Tre Cime, Drei Zinnen, Tre Cime"
+    },
+    {
+     "id": "b4c1b4b82934f2da39f43426a3f7518605fafafa",
+     "name": "Dolomiti Superski"
+    },
+    {
+     "id": "c443cc1044843c9e8087e6c40fe118eb8d8fa18b",
+     "name": "3 Zinnen Dolomites (Dobbiaco - San Candido - Braies - Sesto - Alta Pusteria)"
+    },
+    {
+     "id": "4230b270fcf77bb82c5a46b7324a55983d3d372f",
+     "name": "Val Comelico - Padola"
+    }
+   ]
+  },
+  {
+   "key": "tauernrunde-rot",
+   "match": [
+    "tauernrunde rot"
+   ],
+   "title": "Tauernrunde · red (clockwise)",
+   "color": "#E1262D",
+   "summary": "Obertauern sits in a bowl on the pass, so its lifts and pistes form a ring around the village. The red round goes clockwise and is the more demanding of the two.",
+   "direction": "clockwise",
+   "lengthKm": 12,
+   "difficulty": "hard",
+   "tips": [
+    "Start and finish in Obertauern village."
+   ],
+   "sources": [
+    {
+     "name": "schneehoehen.de",
+     "url": "https://www.schneehoehen.de/artikel/tauernrunde-3970"
+    },
+    {
+     "name": "Snowplaza",
+     "url": "https://www.snowplaza.nl/weblog/7915-tauernrunde/"
+    }
+   ],
+   "areas": [
+    {
+     "id": "b28af962323890eb2dc4f2705ed7b6893d894add",
+     "name": "Obertauern"
+    }
+   ]
+  },
+  {
+   "key": "tauernrunde-gruen",
+   "match": [
+    "tauernrunde grun",
+    "tauernrunde gruen"
+   ],
+   "title": "Tauernrunde · green (anticlockwise)",
+   "color": "#2E9E5B",
+   "summary": "The ring around Obertauern the other way round. The green round is the easier one, a good first lap of the resort.",
+   "direction": "anticlockwise",
+   "lengthKm": 12,
+   "difficulty": "medium",
+   "tips": [
+    "Start and finish in Obertauern village."
+   ],
+   "sources": [
+    {
+     "name": "schneehoehen.de",
+     "url": "https://www.schneehoehen.de/artikel/tauernrunde-3970"
+    }
+   ],
+   "areas": [
+    {
+     "id": "b28af962323890eb2dc4f2705ed7b6893d894add",
+     "name": "Obertauern"
+    }
+   ]
+  },
+  {
+   "key": "the-challenge",
+   "match": [
+    "the challenge"
+   ],
+   "title": "The Challenge",
+   "color": "#121417",
+   "summary": "The biggest circuit of the Skicircus: a loop through Saalbach, Hinterglemm, Leogang and Fieberbrunn. For strong skiers with a full day and good legs.",
+   "difficulty": "hard",
+   "tips": [
+    "Start early and keep an eye on the clock: the way back is long."
+   ],
+   "sources": [
+    {
+     "name": "Saalbach",
+     "url": "https://www.saalbach.com/en/service/infrastructure/the-challenge-ski-your-limit_a_1721"
+    }
+   ],
+   "areas": [
+    {
+     "id": "180faeea32aba7b22fbe1438b0a3a82f6a2a4ad8",
+     "name": "Skicircus Saalbach-Hinterglemm Leogang Fieberbrunn"
+    }
+   ]
+  },
+  {
+   "key": "saalbach-runde",
+   "match": [
+    "saalbach-runde",
+    "saalbach runde"
+   ],
+   "title": "Saalbach round",
+   "color": "#2457FF",
+   "summary": "One of the signposted circuits of the Skicircus, centred on Saalbach.",
+   "difficulty": "medium",
+   "tips": [],
+   "sources": [
+    {
+     "name": "Saalbach",
+     "url": "https://www.saalbach.com/en/winter/ski-resort/ski-circuits"
+    }
+   ],
+   "areas": [
+    {
+     "id": "180faeea32aba7b22fbe1438b0a3a82f6a2a4ad8",
+     "name": "Skicircus Saalbach-Hinterglemm Leogang Fieberbrunn"
+    }
+   ]
+  },
+  {
+   "key": "hinterglemm-runde",
+   "match": [
+    "hinterglemm-runde",
+    "hinterglemm runde"
+   ],
+   "title": "Hinterglemm round",
+   "color": "#2457FF",
+   "summary": "One of the signposted circuits of the Skicircus, around the Hinterglemm side of the valley.",
+   "difficulty": "medium",
+   "tips": [],
+   "sources": [
+    {
+     "name": "Saalbach",
+     "url": "https://www.saalbach.com/en/winter/ski-resort/ski-circuits"
+    }
+   ],
+   "areas": [
+    {
+     "id": "180faeea32aba7b22fbe1438b0a3a82f6a2a4ad8",
+     "name": "Skicircus Saalbach-Hinterglemm Leogang Fieberbrunn"
+    }
+   ]
+  },
+  {
+   "key": "leogang-runde",
+   "match": [
+    "leogang-runde",
+    "leogang runde"
+   ],
+   "title": "Leogang round",
+   "color": "#2457FF",
+   "summary": "One of the signposted circuits of the Skicircus, linking Leogang with the Saalbach side.",
+   "difficulty": "medium",
+   "tips": [],
+   "sources": [
+    {
+     "name": "Saalbach",
+     "url": "https://www.saalbach.com/en/winter/ski-resort/ski-circuits"
+    }
+   ],
+   "areas": [
+    {
+     "id": "180faeea32aba7b22fbe1438b0a3a82f6a2a4ad8",
+     "name": "Skicircus Saalbach-Hinterglemm Leogang Fieberbrunn"
+    }
+   ]
+  },
+  {
+   "key": "tirol-runde",
+   "match": [
+    "tirol-runde",
+    "tirol runde"
+   ],
+   "title": "Tirol round",
+   "color": "#2457FF",
+   "summary": "One of the signposted circuits of the Skicircus, taking in the Tyrolean side towards Fieberbrunn.",
+   "difficulty": "medium",
+   "tips": [],
+   "sources": [
+    {
+     "name": "Saalbach",
+     "url": "https://www.saalbach.com/en/winter/ski-resort/ski-circuits"
+    }
+   ],
+   "areas": [
+    {
+     "id": "180faeea32aba7b22fbe1438b0a3a82f6a2a4ad8",
+     "name": "Skicircus Saalbach-Hinterglemm Leogang Fieberbrunn"
+    }
+   ]
+  }
+ ]
 }
