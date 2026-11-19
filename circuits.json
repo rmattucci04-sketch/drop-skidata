@@ -25,6 +25,10 @@
    ],
    "areas": [
     {
+     "id": "region-sellaronda",
+     "name": "Sellaronda"
+    },
+    {
      "id": "fca6e2a27977f0cdca3016e8e9c4a9a643d53f2b",
      "name": "Val Gardena, Gröden, Gherdëina"
     },
@@ -66,6 +70,10 @@
     }
    ],
    "areas": [
+    {
+     "id": "region-sellaronda",
+     "name": "Sellaronda"
+    },
     {
      "id": "b4c1b4b82934f2da39f43426a3f7518605fafafa",
      "name": "Dolomiti Superski"
@@ -126,6 +134,10 @@
    ],
    "areas": [
     {
+     "id": "region-sellaronda",
+     "name": "Sellaronda"
+    },
+    {
      "id": "b4c1b4b82934f2da39f43426a3f7518605fafafa",
      "name": "Dolomiti Superski"
     },
@@ -183,6 +195,10 @@
     }
    ],
    "areas": [
+    {
+     "id": "region-grande-guerra",
+     "name": "First World War Ski Tour"
+    },
     {
      "id": "b4c1b4b82934f2da39f43426a3f7518605fafafa",
      "name": "Dolomiti Superski"
@@ -242,6 +258,10 @@
     }
    ],
    "areas": [
+    {
+     "id": "region-grande-guerra",
+     "name": "First World War Ski Tour"
+    },
     {
      "id": "b4c1b4b82934f2da39f43426a3f7518605fafafa",
      "name": "Dolomiti Superski"
