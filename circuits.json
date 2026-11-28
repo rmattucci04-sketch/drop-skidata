@@ -1,8 +1,48 @@
 {
  "schema": 1,
- "updated": "2026-11-14",
+ "updated": "2026-11-28",
  "note": "Famous ski circuits. Text written for drop; figures are approximate and taken from the official pages listed under sources. Piste lines come from OpenStreetMap (ODbL).",
  "circuits": [
+  {
+   "key": "weisser-ring",
+   "match": [
+    "weisse ring",
+    "white ring"
+   ],
+   "title": "Der Weisse Ring",
+   "color": "#00A6D6",
+   "summary": "The legendary loop of Lech Zürs am Arlberg: 22 km and about 5,500 m of vertical through Lech, Zürs, Zug and Oberlech, all on skis. It runs on easy and intermediate slopes and is signposted all the way round. A half-day classic.",
+   "direction": "clockwise",
+   "lengthKm": 22,
+   "verticalM": 5500,
+   "difficulty": "medium",
+   "tips": [
+    "Follow the Der Weisse Ring signs: the whole loop is signposted.",
+    "You can join it in Lech (Rüfikopfbahn), in Zürs (Seekopf or Zürsersee) or in Zug (Zugerbergbahn).",
+    "Madloch–Zug (170) is a ski route, not a groomed piste.",
+    "In late winter, ski Lech and Oberlech first: they turn to spring snow before Zürs and Zug."
+   ],
+   "sources": [
+    {
+     "name": "Ski Arlberg",
+     "url": "https://www.skiarlberg.at/en/Lech-Oberlech-Zuers/The-White-Ring"
+    },
+    {
+     "name": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/The_White_Ring_(ski_circuit)"
+    }
+   ],
+   "areas": [
+    {
+     "id": "53410fc611922a26e32535c74bb1d9364cef4ecd",
+     "name": "Ski Arlberg"
+    },
+    {
+     "id": "c5107fc2eb3f59b23211a3251a229b06d36f765c",
+     "name": "Lech/Zürs"
+    }
+   ]
+  },
   {
    "key": "sellaronda-orange-alt",
    "match": [
